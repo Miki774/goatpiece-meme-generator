@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    overflow: hidden;
+    color: white;
+}
+
+.btn{
+    width: 400px;
+    height: 80px;
+    margin: 0 auto;
+    font-size: 26px;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+#memes{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    overflow: scroll;
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#memes div{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    height: auto;
+    width: 350px;
+}
+
+#memes div h4{
+    padding: 5px;
+    text-align: center;
+    background: none;
+    color: #ffffff;
+    border-radius: 8px;
+    margin: 0;
+    font-size: 20px;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+    border-radius: 12px;
+    transition: 200ms;
+}
+
+img:hover{
+    border-radius: 0px;
+    transform: scale(1.2);
+}
